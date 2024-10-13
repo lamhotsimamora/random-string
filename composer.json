@@ -1,0 +1,23 @@
+{
+    "name": "lamhotsimamora/random-string",
+    "type": "random-string",
+    "keywords": ["random", "string", "generator"],
+    "description": "generator for random string",
+    "autoload": {
+        "psr-4": {
+            "Lamhotsimamora\\RandomString\\": "src/"
+        },
+        "files": [
+            "src/RandomStringBuilder.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "lamhotsimamora",
+            "email": "lamhotsimamora36@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
