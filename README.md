@@ -10,5 +10,8 @@ require 'vendor/autoload.php';
 
 $string = new \Lamhotsimamora\RandomString\RandomStringBuilder();
 
+// set length of random string
+$string->setLength(25);
+
 echo $string->generate();
 ```
